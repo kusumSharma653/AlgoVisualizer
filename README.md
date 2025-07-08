@@ -24,3 +24,8 @@ The N-Queens problem involves placing N queens on an N×N chessboard so that no 
 - ⏱️ **Real-time visualization** of the backtracking algorithm
 - 🎛️ **Interactive controls** to start and observe the backtracking algorithm
 - 📜 **Logs** displaying the moves played during the algorithm
+
+## ✨ Link   : 
+https://algovisualizer6655.netlify.app/
+
+
