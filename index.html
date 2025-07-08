@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The N-Queens problem is to place N-Queens on an NxN chessboard such that no queens attack each other. This project visualizes the recursive solution algorithm.">
+    <meta name="keywords" content="N-Queens problem">
+    <meta name="robots" content="index, follow">
+    
+    <!-- title -->
+    <title>N-Queens Visualizer</title>
+
+    <!-- external style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- heading of the page -->
+        <h1>
+            <!-- &#9813; is html emoji code for a crown emoji -->
+            N-Queens Visualizer &#9813;
+        </h1>
+         
+       
+       
+
+        <!-- description of the page -->
+        <div id="description-of-the-algorithm">
+            <p>
+            The N queens puzzle is the problem of placing eight chess queens on an n×n chessboard so that no two queens threaten each other. Thus, a solution requires that no two queens share the same row, column, or diagonal.
+
+            </p>
+        </div>
+    </header>
+
+    <!-- main section-->
+    <main>
+        <!-- algorithm visualizer section -->
+        <section id="algorithm-visualizer-section">
+            <!-- input section -->
+            <section id="input-section">
+                <!-- input the Value Of N -->
+                <label for="value-of-n">Value Of N (1-10):</label>
+                <!-- number input with validation -->
+                <input id="value-of-n" type="number" min="1" max="10" placeholder="N"
+                    onkeyup="validity.valid||(value='');">
+
+                <!-- Start Visualization Button-->
+                <button id="start-visualization">Visualize</button>
+                <hr>
+            </section>
+
+            <!-- N-Queens Visualizer section -->
+            <section id="n-queens-visualizer-section">
+                <!-- table for visualizing the N-Queens solution -->
+                <table id="n-queens-table">
+                    <tr>
+                        <th>Row</th>
+                        <th>Column</th>
+                    </tr>
+                </table>
+            </section>
+        </section>
+
+        <!-- log section -->
+        <section id="log-section">
+            <p>
+                Logs
+
+                <hr>
+            </p>
+        </section>
+    </main>
+
+  
+
+    <!-- javascript file -->
+    <script src="./js/App.js" type="module"></script>
+</body>
+
+</html>
